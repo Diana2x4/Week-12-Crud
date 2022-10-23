@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://st2.depositphotos.com/1763321/8317/v/600/depositphotos_83170200-stock-illustration-beautiful-set-of-hand-drawn.jpg");
+    background-repeat: repeat;
+  }
+
+  div{
+    font-family: monospace;
+  }
+
+  .card{
+    color: black;
+    background-color:#73B7F2;
+    border-radius: 6px;
+    margin: 10px auto;
+    margin: 10px 10px 10px 10px;
+  border: 5px solid black;
+   
+    }

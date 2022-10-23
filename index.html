@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- html for form for user input -->
+  <div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm">
+                <!-- onFormSubmit can be found in JS -->
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div class="form-group">
+                        <label>Plant Name</label>
+                        <input type ="text" class="form-control" name="plantName" id="plantName">
+                    </div>
+                    <div class="form-group">
+                        <label>Watering Day(s)</label>
+                        <input type ="text" class="form-control" name="waterDay" id="waterDay">
+                    </div>
+                    <div class="form-group">
+                        <label>Water Amount</label>
+                        <input type ="text" class="form-control" name="waterAmmount" id="waterAmmount">
+                    </div>
+                    <div class="form-group">
+                        <label>Fed (y/n)</label>
+                        <input type ="text" class="form-control" name="fed" id="fed">
+                    </div>
+                    <div class= "form-action-buttons"> 
+                        <input type = "submit" value="Submit">
+                    </div>
+                </form>
+
+
+<!-- table where we can see user input -->
+    
+</div> 
+</div> 
+</div> 
+</div> 
+<div class="card">
+    <table>
+            <td>
+                <table class="table table-dark" id="plantList">
+                    <thead>
+                        <tr>
+                            <th >Plant Name</th>
+                            <th >Watering Day(s)</th>
+                            <th >Water Amount</th>
+                            <th >Fed (y/n)</th>
+                            <th ></th>
+                        </tr>
+                    </thead>
+
+
+                    <tbody>
+                        
+                        
+                    </tbody>
+            </td>
+        </tr>
+    </table>
+    
+</div> 
+
+<!-- gif -->
+<div class="col-sm-4 ">
+<img src="http://clipart-library.com/images/gierLr4id.gif" class="img-fluid">
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
